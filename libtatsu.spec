@@ -1,12 +1,12 @@
 #
 # Conditional build:
-%bcond_without	static_libs	# static libraries
+%bcond_without	static_libs	# static library
 #
 Summary:	Library handling the communication with Apple's Tatsu Signing Server (TSS)
 Summary(pl.UTF-8):	Biblioteka obsługująca komunikację z serwerem podpisującym Apple Tatsu (TSS)
 Name:		libtatsu
 Version:	1.0.5
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://libimobiledevice.org/
