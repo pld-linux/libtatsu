@@ -5,13 +5,13 @@
 Summary:	Library handling the communication with Apple's Tatsu Signing Server (TSS)
 Summary(pl.UTF-8):	Biblioteka obsługująca komunikację z serwerem podpisującym Apple Tatsu (TSS)
 Name:		libtatsu
-Version:	1.0.5
-Release:	2
+Version:	1.1.1
+Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://libimobiledevice.org/
 Source0:	https://github.com/libimobiledevice/libtatsu/releases/download/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	661199b0e75bf1b7ade90c0b380d61d6
+# Source0-md5:	189fed5ae9b226c14fefdc38324e2c01
 URL:		https://libimobiledevice.org/
 BuildRequires:	curl-devel >= 7.0
 BuildRequires:	libplist-devel >= 2.6.0
