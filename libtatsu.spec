@@ -48,8 +48,8 @@ konsumentem.
 Summary:	Header files for Tatsu library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki Tatsu
 Group:		Development/Libraries
-Requires:	%{name} = %{version}-%{release}
-Requires:	libplist-devel >= 2.6.0
+Requires:	%{name}%{?_isa} = %{version}-%{release}
+Requires:	libplist-devel%{?_isa} >= 2.6.0
 
 %description devel
 Header files for Tatsu library.
@@ -61,7 +61,7 @@ Pliki nagłówkowe biblioteki Tatsu.
 Summary:	Static Tatsu library
 Summary(pl.UTF-8):	Statyczna biblioteka Tatsu
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}-%{release}
+Requires:	%{name}-devel%{?_isa} = %{version}-%{release}
 
 %description static
 Static Tatsu library.
